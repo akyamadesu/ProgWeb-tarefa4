@@ -1,0 +1,48 @@
+/*formatação do card*/
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0;
+    float: right; 
+    text-align: left; 
+    background-color: #fff;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin: 0 0 10px;
+  }
+  
+  .card-content p {
+    margin: 0;
+  }
+  /*fim da formatação do card*/
+
+  .row {
+    display: flex;
+  }
+  
+  .col {
+    flex: 1;
+    margin: 5px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+
